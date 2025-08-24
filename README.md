@@ -25,7 +25,7 @@ Aplikasi Android sederhana untuk menampilkan daftar Pokémon, detail lengkap, pe
 ## 📱 Demo
 
 - **APK**: File [`pokemonexplorer.apk`](https://github.com/ade-syofyan/PokemonExplorer/raw/main/pokemonexplorer.apk) tersedia di root repo.
-- **Video Demo**: [YouTube Short](https://youtube.com/shorts/Ox_h2I-dJMA?feature=share)
+- **Video Demo**: <a href="https://youtube.com/shorts/Ox_h2I-dJMA?feature=share" target="_blank">Lihat di YouTube</a>
 
 ## ▶️ Cara Menjalankan
 
