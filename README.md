@@ -3,15 +3,17 @@
 Aplikasi Android sederhana untuk menampilkan daftar Pokémon, detail lengkap, pencarian, dan favorit. Dibangun menggunakan **Kotlin** dan **Jetpack Compose**, dengan arsitektur **MVVM**, **Room Database**, dan **Hilt Dependency Injection**.
 
 ## ✨ Fitur Utama
+
 - **Daftar Pokémon**: Data dari [PokeAPI](https://pokeapi.co/), dengan tampilan list menggunakan Jetpack Compose.
 - **Halaman Detail**: Menampilkan informasi detail, gambar, statistik, evolusi, dan flavor text.
 - **Pencarian & Filter**: Cari Pokémon berdasarkan nama dan filter daftar favorit.
 - **Favorit**: Tandai Pokémon favorit, data tersimpan secara lokal.
-- **Offline Ready**: Data yang sudah pernah dibuka tersimpan di Room Database. Jika jaringan gagal, aplikasi tetap bisa menampilkan cache + banner offline dengan opsi *retry*.
+- **Offline Ready**: Data yang sudah pernah dibuka tersimpan di Room Database. Jika jaringan gagal, aplikasi tetap bisa menampilkan cache + banner offline dengan opsi _retry_.
 - **Force Refresh**: Tombol refresh untuk memuat ulang data dari API walaupun sudah ada cache.
 - **UI Modern**: Jetpack Compose Material 3, Shimmer placeholder, Pull-to-Refresh.
 
 ## 🛠️ Teknologi
+
 - Kotlin
 - Jetpack Compose (UI)
 - Hilt (Dependency Injection)
@@ -21,10 +23,12 @@ Aplikasi Android sederhana untuk menampilkan daftar Pokémon, detail lengkap, pe
 - MVVM + Repository pattern
 
 ## 📱 Demo
-- **APK**: File [`pokemonexplorer.apk`](./pokemonexplorer.apk) tersedia di root repo.
+
+- **APK**: File [`pokemonexplorer.apk`](https://github.com/ade-syofyan/PokemonExplorer/raw/main/pokemonexplorer.apk) tersedia di root repo.
 - **Video Demo**: [YouTube Short](https://youtube.com/shorts/Ox_h2I-dJMA?feature=share)
 
 ## ▶️ Cara Menjalankan
+
 1. Clone repo ini:
    ```bash
    git clone https://github.com/USERNAME/pokemonexplorer.git
@@ -39,6 +43,7 @@ Aplikasi Android sederhana untuk menampilkan daftar Pokémon, detail lengkap, pe
 5. Atau install langsung file **APK** dari root repo ke device.
 
 ## 📂 Struktur Project
+
 ```
 pokemonexplorer/
  ├── app/                    # Source utama
